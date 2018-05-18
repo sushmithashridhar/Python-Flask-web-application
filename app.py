@@ -2,11 +2,11 @@
 A simple reviews flask app.
 Data is stored in a SQLite database that looks something like the following:
 
-+--------------+-------------+----------------------+------------+---------+-------+
++-------------+-------------+----------------------+------------+--------+--------+
 | termoffered | yearoffered | yearoftheweekoffered | instructor | review | rating |
-+-------------+-------------+----------------------+------------+---------+-------+
-| Fall       |      2017   | Monday               | XYZ        |  Good  | 10     |
-+------------+------------------+------------+----------------+
++-------------+-------------+----------------------+------------+--------+--------+
+| Fall        |      2017   | Monday               | XYZ        |  Good  | 10     |
++-------------+-------------+----------------------+------------+--------+--------+
 
 This can be created with the following SQL (see bottom of this file):
 
